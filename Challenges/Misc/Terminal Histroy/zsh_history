@@ -1,0 +1,1502 @@
+sudo pacman -S fzf zoxide starship
+sudo pacman -S steam proton-plus
+sudo pacman -S steam protonplus
+paru lutris
+sudo pacman -S umu-launcher
+sudo pacman -S gamescope
+gamescope -- dolphin
+sudo pacman -Rs kate
+sudo pacman -S kalk
+sudo pacman -Rs accountsservice
+sudo pacman -S docker docker-compose
+sudo pacman -S syncthing logseq
+sudo pacman -S syncthing
+protonplus
+paru honkers-railwa
+sudo pacman -S keepassxc
+sudo systemctl enable --now syncthing@slamzdank.service
+paru syncthing-qt
+paru syncthing
+sudo pacman -S vesktop
+cat /etc/locale.conf
+cat /etc/locale.gen
+cat /etc/locale.gen | grep c
+cat /etc/locale.gen | grep C
+cat /etc/default/limine
+sudo nvim /etc/default/limine
+sudo nvim /etc/mkinitcpio.conf
+paru gamemode
+paru game
+paru gameperformance
+paru game performance
+paru qbittorrent
+sudo pacman -S neovide
+sudo pacman -S rustup
+rustup install
+rustup default stable
+paru jetbrains toolbox
+git clone https://github.com/SlamZDank/nvim-dots.git
+paru jetbrains mono
+paru -S open-rgb
+paru -S openrgb
+sudo pacman -S lua-rocks
+sudo pacman -S luarocks
+sudo pacman -S wl-clipboard
+rustup install nightly
+sudo pacman -S npm
+paru sleepy
+sudo pacman -S gamemode
+./install.sh
+sudo pacman -Rs ghostty-shell-integration
+sudo pacman -S flatpak
+sudo pacman -Rns linux-firmware
+sudo pacman -Syu linux-firmware
+sudo pacman -S linux-firmware-nvidia linux-firmware-intel linux-firmware-other
+paru iwd
+sudo pacman -Rs wpa_supplicant
+pacman -Qq
+pacman -Q
+paru egl
+flatpak install easyeffects
+notify-send hello
+flatpak install breeze
+sudo pacman -S prismlauncher
+notify-send "something" "hello"
+paru fastfetch
+sudo pacman -Rs wine
+paru apple cursor
+shutdown -P +360
+sudo cp ./user@1000.service /etc/systemd/system
+sudo nvim /etc/environment
+sudo systemctl edit user@1000.service
+cat /etc/systemd/system/user@1000.service
+sudoedit /etc/systemd/logind.conf
+cat ~/.local/share/sddm/wayland-session.log
+sudo su
+paru cachyos-kde
+sudo pacman -Rs nvidia-settings
+sudo pacman -S realtime-privileges
+sudo usermod -aG realtime slamzdank
+users
+nvim locale.test
+sudoedit /etc/locale.gen
+locale -a | grep -i "TN"
+locale -a | grep -i "fr"
+locale -a
+sudoedit /etc/locale.conf
+sudo locale-gen
+locale
+sudo pacman -Rs jetbrains-toolbox
+sudo pacman -S jetbrains-toolbox
+sudo pacman -Syu'
+mkdir -p ~/.config/pipewire/pipewire-pulse.conf.d/
+nvim ./.config/pipewire/pipewire-pulse.conf.d/20-pulse-properties.conf
+ls neovide
+mkdir neovide
+cd neovide
+touch config.toml
+nvim config.toml
+sudo pacman -S lazygit
+git config --global credential.helper store
+git clone https://github.com/SlamZDank/DoctorX_Backend.git
+mkdir js
+node something.js
+rustup install stable
+docker-compose
+docker-compose run
+sudo systemctl enable --now docker.service
+docker-compose run ./docker-compose.yaml
+sudo usermod -aG docker slamzdank
+docker compose up
+cargo install sea-orm-cli
+cd migration
+sea-orm-cli migrate
+git commit -m "add stubs for later work"
+git config --global user.email "mohammedaminslama@gmail.com"
+git config --global user.name "SlamZDank"
+paru kwin-effect
+paru kwin-effects for
+paru kamera
+paru digikam
+sudo pacman -Rs kamera
+paru php
+ddcutil
+sudo pacman -S pacman-contrib
+paru jq
+sudo pacman -S xdg-desktop-portal-gtk
+sudo pacman -S virt-manager qemu vde2 ebtables iptables-nft nftables dnsmasq bridge-utils ovmf
+sudoedit /etc/libvirt/libvirtd.conf
+sudo usermod -aG kvm,libvirt $(whoami)
+sudo groups $(whoami)
+sudoedit /etc/libvirt/qemu.conf
+sudo systemctl enable --now virtqemud.service virtinterfaced.service virtnetworkd.service virtnodedevd.service virtstoraged.service
+sudo virsh net-autostart default
+sudo systemctl enable --now iptables.service
+sudo systemctl enable --now ip6tables.service
+docker ps
+docker kill be25b664bd13
+paru baloo
+sudo pacman -Rs baloo
+sudoedit /etc/limine-snapper-sync.conf
+sudo systemctl status fstrim.timer
+paru zabbix
+man command
+lspci
+sudo balooctl6 disable
+sudo balooctl6 suspend
+sudo systemctl disable baloo
+sudo systemctl list-units | grep balo
+baloosearch6
+balooctl6 purge
+balooctl6 suspend
+balooctl6
+balooctl6 disable
+balooctl6 status
+sudo pacman -Rs bash-completion
+sudo pacman -Rs bind
+paru game-performance
+sudo pacman -Rs dosfstools
+sudo pacman -Rs dmraid
+sudo pacman -Rs ethtool
+sudo pacman -Rs f2fs-tools
+sudo pacman -Rs flex
+sudo pacman -Rs foomatic
+sudo pacman -Rs foomatic-db
+sudo pacman -Rs foomatic-db foomatic-db-engine
+sudo pacman -Rs gsfonts
+cd /boot
+paru rounded corners
+paru breeze gtk
+lutris
+sudo pacman -S kde-gtk-config
+sudo pacman -Rs capitaine-cursors
+sudo pacman -Rs qt5-speech
+sudo pacman -Rs knotifications5 ktextwidgets5
+sudo pacman -Rs knotifications5 ktextwidgets5 kio5 kwallet5
+sudo pacman -S wine
+wine cmd.exe jadeite.exe
+wine cmd.exe /c jadeite.exe
+echo $XDG_SESSION_TYPE
+paru lib32 gamescope
+sudo pacman -Rs lib32-gamescope-plus
+gamescope --version
+gamescope -- glxgears
+lsblk
+paru arabsoft
+sudo pacman -S celluloid
+sudo pacman -Rs celluloid
+sudo pacman -S haruna
+sudo pacman -Rs mpv
+sudo pacman -Rs mpvqt
+paru ytdlp
+paru yt-dlp
+adb pair 192.168.1.67:45017
+adb pair 192.168.1.67:33847
+adb uninstall --user 0 com.google.android.apps.maps
+adb connect 192.168.1.67:45017
+adb connect 192.168.1.78:46653
+adb disconnect 192.168.1.67:45017
+adb uninstall --user 0 com.google.android.apps.tachyon
+prismlauncher
+paru gpu screen
+echo test
+shutdown -P +180
+sudo pacman -S flatpak-kcm
+cat /etc/limine-entry-tool.conf
+ayugram-desktop
+sudo ln -s $HOME/.local/share/Steam/ubuntu12_32/reaper /usr/local/bin/gamescopereaper
+sudo pacman -Rs linux-firmware-whence
+sudo /etc/default/limine
+sudoedit /etc/default/limine
+sudo pacman -S linux-cachyos-lts
+sudo pacman -Rs linux-cachyos-lts
+sudo plymouth-set-default-theme cachyos-bootanimation
+paru maliit
+nvim .config/starship.toml
+java jar
+java -jar
+java -jar rec.jar patches rep.rvp
+java -jar rec.jar options rep.rvp
+java -jar rec.jar list-versions rep.rvp
+java -jar rec.jar
+java -jar rec.jar patch Youtube.apk
+java -jar rec.jar patch Youtube.apk --keystore=Revanced.keystore -p rep.rvp
+java -jar rec.jar patch Youtube.apk --keystore=Revanced.keystore -p rep.rvp -o ./Patched/Revanced.apk
+java -jar rec.jar patch Youtube.apk --keystore=Revanced.keystore -p rep.rvp -o ./Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube"
+adb connect 192.168.1.78:45993
+java -jar rec.jar patch Youtube.apk --keystore=Revanced.keystore -p rep.rvp -o ./Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -i 192.168.1.78:45993
+nvim ../.config/ghostty/config
+nvim ../.config/starship.toml
+cd Public
+nvim ./.config/starship.toml
+sudoedit /root/.config/starship.toml
+adb connect 192.168.1.67:38869
+cd ReVanced
+cat Command.txt
+cd Patched
+nvim Revanced-options.json
+java -jar rec.jar patch Youtube.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -i 192.168.1.67:38869
+paru plamsa login
+paru plamsa login manager
+java -jar rec.jar patch Messenger.apk --keystore=Revanced.keystore -p repM.rvp -o PatchedMessenger/RevancedMessenger.apk
+sudo pacman -S vk_layer
+paru vk_layer
+paru vk layer
+paru vk layer hdr
+paru pq
+paru qp
+paru qpw
+paru kwin-effects
+sudo chmod +x ./sine-linux-x64
+sudo ./sine-linux-x64
+paru sine
+sudo pacman -S cmake
+sudo cachyos-rate-mirrors
+cat
+cat gnutls.conf
+sudoedit ntsync.conf
+cat ntsync.conf
+sudo modprobe ntsync
+modinfo
+sudo lsof /dev/ntsync
+cargo new smart_lifetimes
+/usr/bin/vesktop --new-window --enable-features=WaylandWindowDecorations --enable-features=UseOzonePlatform --ozone-platform=wayland %F
+paru android tools
+paru extension-manager
+paru resources
+paru gnome-welcome
+paru gnome welcome
+paru gnome-tour
+paru kwallet
+paru fluid
+paru lmms
+paru file roller
+paru gtk3
+paru gtk3 theme
+paru gtk3 theme adwaita
+paru gtk3 dark
+paru gtk3 gtk2 theme dark
+paru gtk theme
+paru nautilus
+paru nautilus extension
+paru nautilus terminal
+paru protocol terminal
+paru xdg-terminal
+paru heroic
+paru meld
+paru cachyos-micro-config
+paru cachyos micro config
+paru cachyos micro
+paru nm-tray
+paru shutter encoder
+git clone -b unified-patches https://github.com/RobotRoss/resolve-flatpak.git --recursive
+sudo pacman -S flatpak builder
+sudo pacman -S flatpak-builder
+flatpak install org.freedesktop.Sdk
+flatpak install org.freedesktop.platform
+flatpak install org.freedesktop.Platform
+flatpak-builder --force-clean --repo=repo build-dir com.blackmagicdesign.Resolve.Studio.yaml\
+flatpak build-bundle repo ResolveStudio.flatpak com.blackmagicdesign.Resolve.Studio
+paru euphonica
+flatpak remotes
+sudo pacman -S warehouse
+paru warehouse
+flatpak install warehouse
+flatpak install ResolveStudio.flatpak
+cd resolve-flatpak
+sudo flatpak install ResolveStudio.flatpak
+sudo pacman -S distrobox
+paru nvidia container toolkit
+sudo pacman -S lshw
+./setup.sh
+sudo pacman -S podman
+sudo cp -s $HOME/.local/share/Steam/ubuntu12_32/reaper /usr/local/bin/gamescopereaper
+sudo cp $HOME/.local/share/Steam/ubuntu12_32/reaper /usr/local/bin/gamescopereaper
+cp $HOME/.local/share/Steam/ubuntu12_32/reaper ../../Utilities/gamescopereaper
+sudo pacman -Rs steam
+systemctl status systemd-resolved.service
+podman logs davincibox > file.txt
+nvim file.txt
+cd /bin
+ls | grep resolve
+cd opt
+cd ../bin
+echo $QT_QPA_PLATFORM
+ls -a
+sudo dnf install starship fzf zoxide
+sudo dnf install apple_cursors
+sudo dnf install -y breeze-cursor-theme\
+\
+gsettings set org.gnome.desktop.interface cursor-theme 'breeze-cursor'
+cat $XDG_HOME_CONFIG
+echo $XDG_HOME_CONFIG
+sudo dnf adwaita-cursors
+sudo dnf install adwaita-cursors
+cd Utilities
+cd davincibox-main
+distrobox list
+sudo pacman -Rs flatpak-builder
+flatpak remove org.freedesktop.Platform org.freedesktop.Sdk
+flatpak remove --delete-data
+./setup.sh uninstall
+./setup.sh remove
+cd ./.local
+cd applications
+rm black*
+rm davincibox*
+rm DaVinci*
+cargo runm
+paru crossover
+journalctl | grep iwlwifi
+cd /home/slamzdank/.local/share/applications
+cd /opt/
+yt-dlp
+enable cgroup v2 delegation
+podman logs -f davincibox
+paru distrobox
+paru podman
+paru podman git
+distrobox rm davincibox
+sudo chmod +x ./setup.sh
+./setup.sh ./DaVinci_Resolve_Studio_20.0.1_Linux.run
+cd /opt/resolve/bin
+cd ./.local/share/applications
+rm davincibox.desktop DaVinciRemoteMonitoring.desktop DaVinciControlPanelsSetup.desktop
+dnf install adwaita-icon-theme
+sudo !
+sudo dnf install adwaita-icon-theme
+gsettings set org.gnome
+gsettings set org.gnome.desktop.interface cursor-theme
+gsettings set org.gnome.desktop.interface cursor-theme 'breeze-cursor'
+distrobox-list
+distrobox-enter davincibox -- cp -r "/usr/share/icons/macos-white" "/usr/share/icons/"
+cd /usr
+cd ,.
+cp -r /usr/share/icons/macOS-White ./
+cp ./macOS-White /usr/share/icons
+cp -r ./macOS-White /usr/share/icons
+sudo sudo pacman -S fzf zoxide starship
+sudo sudo sudo pacman -S fzf zoxide starship
+sudoedit index.theme
+sudo dnf uninstall adwaita-icon-theme
+sudo dnf remove adwaita-icon-theme
+sudo rm /usr/local/bin/gamescopereaper
+sudo cp ./Utilities/gamescopereaper /usr/local/bin/
+cd ./.config
+cd gtk-4.0
+nvim gtk.css
+sudo pacman -S librewolf
+flatpak uninstall io.github.flattool.Warehouse
+flatpak updaate
+flatpak upate
+cargo new proc_macros
+bacon --prefs
+cd /home/slamzdank/.config/bacon/
+bacon -j bacon_ls
+bacon -j bacon-ls
+echo $BACON_PREFS
+nvim ./.config/nvim/lua/configs
+bacon
+cargo new proc_macros_bacon
+cargo clippy
+git reset --hard
+game-performance
+sudo pacman -Rs gamemode
+sudo pacman -Rs power-profiles-daemon
+game-performance lutris
+sudo pacman -S power-profiles-daemon
+powerprofilesctl
+sudo pacman -S linux-cachyos-lto
+sudo pacman -S linux-cachyos-lto linux-cachyos-lto-headers linux-cachyos-lto-nvidia-open
+sudo pacman -Rs linux-cachyos linux-cachyos-headers linux-cachyos-nvidia-open
+sudo pacman -S linux-cachyos-lts-lto linux-cachyos-lts-lto-headers linux-cachyos-lts-lto-nvidia-open
+modinfo ntsync
+sudo
+nvidia-smi -q
+nvidia-smi -q | grep GSP
+git clone https://github.com/dtolnay/proc-macro-workshop.git
+docker ps -q
+paru ntsync
+paru ntsync proton
+sudo rm -r ../chrome
+cargo install cargo-expand
+cd tests
+cd builder
+docker stop be25b664bd13
+cargo-expand
+cargo-expand expand
+cargo test
+sudo dnf install libxkbfile
+sudo dnf install nss
+sudo rm add-davinci-launcher run-davinci
+sudo cp /home/slamzdank/Downloads/run-davinci ./
+sudo cp /home/slamzdank/Downloads/add-davinci-launcher ./
+sudo chmod +x add-davinci-launcher run-davinci
+ls | grep davinci
+cd /usr/bin
+./add-davinci-launcher
+./add-davinci-launcher distrobox
+paru power-profiles
+sudoedit /boot/limine.conf
+sudo pacman -S meson ninja updpkgsrcs vulkan-headers wayland-protocols
+paru updpkgsrcs
+sudo pacman -S meson ninja vulkan-headers wayland-protocols
+cat << EOF | tee gamescope_fix.patch > /dev/null\
+diff --git a/src/rendervulkan.cpp b/src/rendervulkan.cpp\
+index 7efcc0d..003582c 100644\
+--- a/src/rendervulkan.cpp\
++++ b/src/rendervulkan.cpp\
+@@ -324,6 +324,8 @@ bool CVulkanDevice::selectPhysDev(VkSurfaceKHR surface)\
+ 	{\
+ 		VkPhysicalDeviceProperties deviceProperties;\
+ 		vk.GetPhysicalDeviceProperties(cphysDev, &deviceProperties);\
++		if (deviceProperties.vendorID == 0x10DE)\
++			continue;\
+\
+ 		if (deviceProperties.apiVersion < VK_API_VERSION_1_2)\
+ 			continue;\
+EOF\
+\
+cat << EOF | tee gamescope_meson_fix.patch > /dev/null\
+diff --git a/meson.build b/meson.build\
+index 00a1cb4..827bd5d 100644\
+--- a/meson.build\
++++ b/meson.build\
+@@ -55,6 +55,9 @@ if get_option('enable_openvr_support')\
+   if not openvr_dep.found()\
+     cmake = import('cmake')\
+     openvr_var = cmake.subproject_options()\
++    openvr_var.add_cmake_defines({\
++	    'CMAKE_POLICY_VERSION_MINIMUM': '3.5'\
++	})\
+     openvr_var.add_cmake_defines({'USE_LIBCXX': false})\
+     openvr_var.set_override_option('warning_level', '0')\
+     openvr_proj = cmake.subproject('openvr', options : openvr_var)\
+EOF
+cat gamescope_fix.patch
+mv gamescope_meson_fix.patch ./Downloads/gamescope-nvidia
+cd src
+git clone https://aur.archlinux.org/gamescope-nvidia.git
+cd gamescope-nvidia
+cat << EOF | tee gamescope_fix.patch > /dev/null\
+diff --git a/src/rendervulkan.cpp b/src/rendervulkan.cpp\
+index 7efcc0d..003582c 100644\
+--- a/src/rendervulkan.cpp\
++++ b/src/rendervulkan.cpp\
+@@ -324,6 +324,8 @@ bool CVulkanDevice::selectPhysDev(VkSurfaceKHR surface)\
+ 	{\
+ 		VkPhysicalDeviceProperties deviceProperties;\
+ 		vk.GetPhysicalDeviceProperties(cphysDev, &deviceProperties);\
++		if (deviceProperties.vendorID == 0x10DE)\
++			continue;\
+\
+ 		if (deviceProperties.apiVersion < VK_API_VERSION_1_2)\
+ 			continue;\
+EOF
+updpkgsums
+makepkg -s
+paru bazaar
+paru vacuum\ 
+paru vacuum tube
+paru vaccum
+flatpak install vacuumtube
+paru sober
+flatpak run rocks.shy.VacuumTube
+flatpak remove rocks.shy.VacuumTube
+paru distroshelf
+flatpak install distroshelf
+paru kontainer
+sudo pacman -Rs kontainer-git
+paru tuxedo
+paru fedora media
+sudo pacman -Rs docker
+sudo pacman -Rs docker-compose
+sudo systemctl disable --now docker
+paru limine
+paru authenticator
+paru ladybird
+sudo pacman -Rs ladybird-git
+cd /etc/systemd/system
+/usr/lib/qt6/bin/qsb --glsl "100 es,120,150" --hlsl 50 --msl 12 -o MYSHADER.frag.qsb ./journey.frag
+cd Desktop
+/usr/lib/qt6/bin/qsb --glsl "300es,300" --hlsl 50 --msl 12 -o cubers.frag.qsb ./Cubes.frag
+/usr/lib/qt6/bin/qsb --glsl "300es,300" --hlsl 50 --msl 12 -o cubers.frag.qsb ./Desktop/Cubes.frag
+/usr/lib/qt6/bin/qsb --glsl "450es,450" --hlsl 50 --msl 12 -o cubers.frag.qsb ./Desktop/Cubes.frag
+/usr/lib/qt6/bin/qsb --glsl "100 es,120,150" --hlsl 50 --msl 12 -o cubers.frag.qsb ./Desktop/Cubes.frag
+/usr/lib/qt6/bin/qsb --glsl "100 es,120,150" --hlsl 50 --msl 12 -o cubers.frag.qsb ./Cubes.frag
+sudo dnf install opencl nvidia
+dnf search opencl
+paru telegram
+paru geocode
+sudo pacman -Rs geocode-glib-2
+paru webkit
+sudo pacman -S webkitgtk-6.0
+paru plasma6-applets
+sudo pacman -Rs ayugram-desktop
+sudo pacman -S ayugram-desktop
+env -i AyuGram
+env -i QT_QPA_PLATFORM=wayland AyuGram
+paru -Rs telegram-desktop
+paru breeze5
+paru darkly
+paru qt5ct
+nvim ./.zprofile
+paru klassy qt5
+sudo pacman -Rs darkly
+sudo pacman -Rs darkly-qt6-git darkly-qt5-git
+sudo pacman -Rs qt5-base
+sudo pacman -Rs breeze5
+paru -Rs solid5
+paru -Rs solid5 kio5 plasma5-integration plasma5support
+paru -Rs solid5 kio5
+flatpak uninstall org.freedesktop.Platform.VAAPI.Intel
+flatpak uninstall com.github.wwmm.easyeffects
+sudo pacman -S easyeffects
+sudo pacman -S calf lsp-plugins-lv2 zam-plugins-lv2 mda.lv2
+sudo flatpak repair
+flatpak uninstall org.freedesktop.Platform
+nvim starship.toml
+su
+systemd-analyze
+paru networkmanager
+sudo pacman -Rs networkmanager-openvpn
+sudo pacman -Rs qca-qt5
+sudo pacman -Rs qca-qt5 kwallet5
+sudo pacman -Rs qca-qt5 kwallet5 kio5
+lshw
+lshw | vga
+sudo lshw | vga
+sudo lshw | grep vgs
+sudo lshw | grep vga
+sudo lshw | grep lenovo
+sudo lshw
+sudo lshw | grep DP
+ls /sys/class/drm/card0
+sudo pacman -S qterminal
+paru lossless scaling
+paru vulkan tools
+paru vkcube wayland
+paru libxnvctrl
+sudo pacman -Rs qterminal
+sudo pacman -S konsolE
+sudo pacman -S konsole
+paru xwininfo
+nvim electron-flags.conf
+sudo rm -r containerd
+nvim ../.zshrc
+nvim ../.zprofile
+nvim .zprofille
+nvim .zshrx
+vesktop --ozone-platfom=wayland
+vesktop --ozone-platfom=wayland --enable-features=UseOzonePlatform
+vesktop â€ƒ³enable-features=UseOzonePlatform --ozone-platform=wayland
+paru -Syu\ 
+shutdown -P +2
+sudo shutdown -P +2
+git branch -M main\
+git push -u origin main
+paru go neovim
+paru go nvim
+sudo pacman -S plasma5-integration
+sudo pacman -S plasma5support
+paru -Rs kwin-x11
+sudo pacman -Rs kwin-effects-forceblur
+sudo pacman -S kwin-effects-forceblur
+sudoedit /etc/pacman.conf
+paru kitty
+paru wezterm
+sudo pacman -Rs wezterm
+paru foot
+foot
+sudo pacman -Rs foot
+paru alacritty
+paru ghostty
+sudo pacman -Rs alacritty
+nvim .config/ghostty/config
+sudo pacman -Rs konsole
+ghostty
+mkdir python
+paru goneovim
+goneovim
+sudo pacman -Rs goneovim-bin
+sudo paru -Syu
+cat pkg_version
+cat hdifffiles.txt
+cat config.json
+cat config.json | grep version
+cat config.json | grep v
+cat config.json | grep 2.
+cd Zenless\ Zone\ Zero
+cat .version
+cat version_info
+cat app.info
+cat boot.config
+cat deletefiles.txt
+sudo chmod +x ./delete.sh
+./delete.sh
+./delete.sh ./deletefiles.txt
+./delete.sh deletefiles.txt
+cargo doc
+cargo test -- --nocapture
+7z -xvf
+ld
+cat config
+cargo new something to test
+cargo new something_to_test
+java -jar rec.jar utility
+java -jar rec.jar options
+java -jar rec.jar options -h
+java -jar rec.jar -o
+java -jar rec.jar -h
+java -jar rec.jar -v
+java -jar rec.jar -V
+java -jar rec.jar list-patches
+java -jar rec.jar list-patches rep.rvp
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube"
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" --experimental
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" --force
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" --force
+chmod -uw __home__slamzdank
+chmod -w __home__slamzdank
+ls -l __home__slamzdank
+paru podman compose
+cargo rrun
+curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
+cargo-binstall diesel-cli
+cargo-binstall diese-
+cargo-binstall diesel_cli
+paru libpq
+diesel migration run
+cargo run\ 
+diesel migration undo
+diesel migration revert
+diesel migration revert --database-url=postgres://test:test@localhost:5432/leisure_app
+diesel migration generate user_handling
+diesel migration redo
+curl http://localhost:8080/api/v1/user/
+curl http://localhost:8080/api/v1/user/ | jq
+paru bruno
+for pid in /proc/[0-9]*; do\
+ owner=$(stat -c %U "$pid" 2>/dev/null)\
+ if [[ "$owner" == "$USER" ]]; then\
+ if grep -qi 'vulkan' "$pid/maps" 2>/dev/null; then\
+ procname=$(cat "$pid/comm" 2>/dev/null)\
+ if [[ -n "$procname" ]]; then\
+ printf "PID %s: %s\n" "$(basename "$pid")" "$procname"\
+ fi\
+ fi\
+ fi\
+done
+lsof /dev/ntsync
+sudo pacman -Rs qownnotes
+sudo perl -pi -e 's/\x43\x79\x62\x72\x43\x74\x66\x7B/\x50\x34\x54\x43\x48\x5f\x31\x54\x7d/g' /opt/cybersoft/food_program/bin
+paru debtap
+sudo debtap -P /home/slamzdank/Downloads/qownnotes-dbgsym_25.7.7-1ubuntu3ppa1~questing1_amd64.ddeb\
+
+debtap -h
+debtap -P /home/slamzdank/Downloads/qownnotes-dbgsym_25.7.7-1ubuntu3ppa1~questing1_amd64.ddeb\
+
+debtap -P /home/slamzdank/Downloads/qownnotes-dbgsym_25.7.7-1ubuntu3ppa1~questing1_amd64.deb\
+
+debtap /home/slamzdank/Downloads/qownnotes-dbgsym_25.7.7-1ubuntu3ppa1~questing1_amd64.deb\
+
+debtap -u
+sudo debtap -u
+bash
+bsdtar -O -xf "${pkgname}_${pkgver}.deb" 'data.tar*' | bsdtar -C "${pkgdir}" -xf -
+sudo pacman -U /home/slamzdank/Downloads/qownnotes_25.7.7-1ubuntu3ppa1~questing1_amd64/data.tar.zst\
+
+sudo pacman -U /home/slamzdank/Downloads/qownnotes_25.7.7-1ubuntu3ppa1~questing1_amd64/data.pkh.tar.zst
+sudo pacman -U /home/slamzdank/Downloads/qownnotes_25.7.7-1ubuntu3ppa1~questing1_amd64/data.pkg.tar.zst
+./QOwnNotes
+sudo pacman -Rs debtap
+paru gearlever
+flatpak install gearlever
+flatpak remove it.mijorus.gearlever
+paru qown
+flatpak uninstall com.ranfdev.DistroShelf
+flatpak uninstall --unused
+flatpak repair
+lazygit
+podman list
+podman --help
+podman containers
+podman container
+podman container list
+diesel migration run --database-url=postgres://test:test@localhost:5432/leisure_app
+paru zen
+paru spotdl
+lsfd
+paru -SYu
+mangoapp
+mangohud
+paru gem
+paru ruby
+mkdir ruby
+touch ruby.rb
+cd ruby
+gem install bundler
+paru python
+paru -S python
+sudo pacman -Rs ruby
+nvidia-ctk cdi generate --output="/etc/cdi/nvidia.yaml"
+cd /usr/share/libalpm/hooks
+cat nvidia-ctk-cdi.hook
+cat /etc/cdi/nvidia.yaml
+paru alsa mixer
+easyeffects
+paru pulse
+paru pavucontrol
+cd pulse/\ 
+cd pulse/
+cd pipewire
+cat pipewire-pulse.conf.d
+cat 20-pulse-properties.conf
+cat 00-plasma-pa.conf
+paru qpwgraph
+sudo pacman -Rs qpwgraph
+pw-cli
+pw-cli destroy
+pw-cli list-objects | grep -E "id"
+pw-cli list-objects | grep -E "node\.description|object.id"
+pw-cli list-objects | grep -E "GA"
+pacat
+pacat list sinks short
+pacat list sources short
+cd /usr/share/pipewire
+cat pipewire.conf
+cd /etc/pipewire
+cd client.conf.d
+cd pipewire.conf.d
+cd pipewire-pulse.conf.d
+wpctl set-profile 51 1
+wpctl set-profile 51 3
+wpctl status
+pactl list sinks | grep "device"
+pactl list sinks | grep "device.id"
+pw-cli destroy 53
+pw-cli destroy 54
+pw-cli destroy 51
+pw-cli destroy 123
+pw-cli list-objects
+pactl list sinks
+pactl set-default-sink alsa_output.pci-0000_01_00.1.pro-output-7
+sudo alsactl store
+alsamixer
+mkdir -p ~/.config/wireplumber/main.lua.d/
+cd main.lua.d
+systemctl list
+nvim 99-disable-proaudio.lua
+sudo mkdir -P /etc/wireplumber/wireplumber.conf.d/
+sudo mkdir -p /etc/wireplumber/wireplumber.conf.d/
+cd /etc/
+pactl list short sinks
+cd wireplumber/]
+cd wireplumber
+rm -r main.lua.d
+cd /etc/wireplumber
+cd wireplumber.conf.d
+nvim alsa
+sudoedit alsa-disable.conf
+systemctl --user restart wireplumber pipewire pipewire-pulse
+paru -Rs pavucontrol
+sudo pacman -Rs plasma5support
+sudo pacman -Rs plasma5-integration
+sudo pacman -Rs cachyos-plymouth-bootanimation
+sudo pacman -Rs foomatic-db-nonfree
+sudo pacman -Rs gutenprint
+systemctl status haveged.service
+systemctl status haveged-once.service
+sudo pacman -Rs inetutils
+sudo pacman -Rs jfsutils
+paru -Rs kdeplasma-addons
+sudo pacman -Rs kdialog
+sudo pacman -Rs libwnck3
+sudo pacman -Rs mtools
+sudo pacman -Rs netctl
+sudo pacman -Rs nfs-utils
+sudo pacman -Rs osprober
+sudo pacman -Rs os-prober
+sudo pacman -Rs plasma-browser-integration
+sudo pacman -Rs plasma6-applets-panel-colorizer
+sudo pacman -Rs xorg-xinit
+sudo pacman -Rs xorg-xkill xorg-xwininfo
+sudo pacman -Rs xf86-video-vesa
+btrfs-assistant-bin
+btrfs-assistant
+btrfs-assistant-launcher
+qdbus6 org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.saveCurrentSession
+krunner
+adb pair 192.168.1.74:46427
+adb connect 192.168.1.74:34683
+java -jar rec.jar patch Youtube.apk --keystore=Revanced.keystore -i 192.168.1.74:34683 -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube"\
+
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" --force -i 192.168.1.74:34683
+paru librewolf
+sudo pacman -Rs librewolf
+qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(
+qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona"
+qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript 'lockCorona(!locked)'
+sudo pacman -Rns $(pacman -Qtdq)
+paru antimicro
+sudo antimicrox
+sudo pacman -Rs antimicrox
+paru eden
+nvim /etc/limine-entry-tool.conf
+sudo pacman -S zed
+sudo pacman -Rs zed
+paru bluetui
+sudo pacman -Rs mangohud
+flatpak list
+sudo pacman -Rs $(pacman -Qtdq)
+vesktop
+vesktop --disable-renderer-backgrounding --enable-features=UseOzonePlatform,VaapiIgnoreDriverChecks,VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization,UseMultiPlaneFormatForHardwareVideo --ozone-platform=wayland
+systemd-analyze blame
+systemd-analyze blame | grep systemd
+cd /etc/systemd
+sudoedit journald.conf
+cd /var/
+cd log/
+cd journal
+systemctl list-units --type=service --state=running
+paru lightdm-gtk-greeter-settings
+systemctl --user listj-units --type=service --state=running
+cd .config
+cd systemd
+cd user
+cat baloofilerc
+systemctl --user list-units --type=service --state=running
+cargo expand
+diesel migration redo --database-url=postgres://test:test@localhost:5432/leisure_app
+nvim .
+sudo pacman -Rs kwin-x11
+haruna \[SubsPlease\]\ Lord\ of\ Mysteries\ -\ 06\ \(1080p\)\ \[66186EE8\].mkv
+haruna
+sudo limine-mkinitcpio
+cd .confgi
+cd .confg
+cd .conf
+neovide
+/usr/lib/qt6/bin/qsb --glsl "100 es,120,150" --hlsl 50 --msl 12 -o lava.frag.qsb ./cineShader-Lava.frag
+paru lsf
+find ~/.local/share/icons/Adwaitaru -type f -name "*.svg" -exec sed -i 's/#[5-9a-b][0-9a-f][5-9a-e][0-9a-f][5-9a-e][0-9a-f]/#ffffff/g;\
+                s/#[5-9a-b][0-9a-f][0-9a-f][5-9a-e][0-9a-f][0-9a-f]/#ffffff/g;\
+                s/#[0-9a-f][0-9a-f][5-9a-b][0-9a-f][5-9a-e][0-9a-f]/#ffffff/g;\
+                s/#[0-9a-f][0-9a-f][0-9a-f][5-9a-b][0-9a-f][0-9a-f]/#ffffff/g;\
+                s/#[0-9a-f][0-9a-f][0-9a-f][0-9a-f][5-9a-b][0-9a-f]/#ffffff/g;\
+                s/#[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][5-9a-b]/#ffffff/g;\
+                s/gray(.*)/#ffffff/g;\
+                s/grey(.*)/#ffffff/g;\
+                s/currentColor/#ffffff/g' {} \;
+paru adwaita icon
+systemsettings
+cd /usr/lib
+cd plymouth
+cd /usr/share/plymouth
+cd themes
+cd ../spinner
+ls | grep *.svg
+ls | grep .*.svg
+ls | grep .*.svg$
+ls | grep *.svg$
+dolphin .
+nvidia-smi
+paru mangohud
+paru -Rs mangohud
+sudo pacman -Syy
+chmod +x ./balatro-mobile-maker-beta-0.8.3-linux-x64-expeimental
+cd ./BalatroModApkMaking
+./balatro-mobile-maker-beta-0.8.3-linux-x64-expeimental
+find ~/.gamepfx/ -type f -name "balatro.apk"\
+
+find ~/.gamepfx/ -type f -name "balatro"
+find ~/.gamepfx/ -name "balatro"
+find ~/ -name "balatro.apk"
+logout
+winecfg
+tar cf - dump/ | adb shell run-as com.unofficial.balatro tar xf -
+tar cf - Mods/ | adb shell run-as com.unofficial.balatro tar xf -
+paru apk tool
+chmod +x apktool_2.12.0.jar
+java -jar apktool_2.12.0.jar --version
+java -jar apktool_2.12.0.jar -v
+java -jar apktool_2.12.0.jar d ./Balatro_com.unofficial.balatro_1_EO7YX.apk -o balatro_decomp
+jarsigner -keystore Revanced.keystore unsigned_balatro.apk ReVanced
+jarsigner -keystore Revanced.keystore unsigned_balatro.apk revanced
+keytool -genkey -v -keystore balatro.keystore -alias balatro-alias -keyalg RSA -keysize 2048 -validity 10000
+jarsigner -keystore balatro.keystore unsigned_balatro.apk balatro-alias
+adb install --user 0 /home/slamzdank/Downloads/unsigned_balatro.apk\
+
+paru zip align
+paru zipalign\ 
+paru zipalign
+cd ./Downloads
+paru love 2s
+paru love 2d
+cd ../../../
+cd ../../
+cd balatro_decomp
+cd assets
+love game.love
+cd ../..
+love .
+cd Downloads
+java -jar apktool_2.12.0.jar b balatro_decomp -o unsigned_balatro.apk
+java -jar apktool_2.12.0.jar d CodexBalatro.apk -o modified_files
+find ./ -name "love.png"
+java -jar apktool_2.12.0.jar d CodexBalatro.apk -o mods_folder
+adb connect 192.168.1.74:35971
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" --force -i 192.168.1.74:35971
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" -e "Theme" --force -i 192.168.1.74:35971
+find ./ "mobile"
+grep -rnw ./ -e 'mobile'
+grep -rnw ./ -e 'controle'
+grep -rnw ./ -e 'controls'
+grep -rnw ./ -e 'control'
+grep -rnw ./ -e 'drag'
+java -jar apktool_2.12.0.jar b modified_files -o unsigned_balatro.apk
+java -jar balatro_mobile_port b modified_files -o unsigned_balatro.apk
+java -jar apktool_2.12.0.jar b balatro_mobile_port -o unsigned_balatro.apk
+zipalign -p -f -v 4 unsigned_balatro.apk aligned.apk
+apksigner sign --ks balatro.keystore --ks-key-alias balatro-alias aligned.apk
+adb install --user 0 /home/slamzdank/Downloads/aligned.apk
+adb install --user 0 ./aligned.apk
+sudo rm /var/lib/pacman/db.lck
+paru openrgb
+paru twintail
+paru proton authenticator
+adb connect 192.168.1.74:42129
+adb connect 192.168.1.74:38183
+adb connect 192.168.1.74:44917
+paru linux lts
+paru kcm
+cd /etc
+sudo cp plasma-login.conf plasmalogin.conf
+sudo pacman -Rs love
+paru plasma login manager
+git clone https://invent.kde.org/davidedmundson/plasma-login.git
+cd plasma-login
+cat CMakeLists.txt
+cmake -S plasma-login -B plasma-login/build && sudo make install -C plasma-login/build
+sudo rm /usr/bin/plasma-login-wallpaper
+sudo rm /usr/lib/systemd/user/plasma-wallpaper.service
+sudo rm /usr/lib/libexec/plasma-login-greeter
+sudo rm /usr/lib/systemd/user/plasma-login-kwin_wayland.service
+sudo rm /usr/lib/systemd/user/plasma-login.service
+sudo rm /usr/lib/systemd/user/plasma-login-wayland.target
+sudo rm /usr/bin/startplasma-login-wayland
+sudo rm /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_plasmalogin.so
+sudo rm /usr/share/applications/kcm_plasmalogin.desktop
+sudo rm /usr/share/polkit-1/actions/org.kde.kcontrol.kcmplasmalogin.policy
+sudo rm /usr/share/dbus-1/system.d/org.kde.kcontrol.kcmplasmalogin.conf
+sudo rm /usr/share/dbus-1/system-services/org.kde.kcontrol.kcmplasmalogin.service
+sudo rm /usr/lib/kf6/kauth/kcmplasmalogin_authhelper
+sudo pacman -Syu plasma-login-manager\
+sudo systemctl disable sddm\
+sudo systemctl enable plasmalogin.service\
+reboot
+cd local
+cd Trash
+sudo rm -r ./*
+adb connect 192.168.1.74:36521
+adb disconnect 192.168.1.74:36521
+cd cash_register
+cd leisure_app
+grep -rnw ./ -e 'sub_cate'
+diesel database reset
+diesel database reset --database-url=postgres://test:test@localhost:5432/cash_register_app
+cargo chekc
+sudo rm -r leisure_app
+paru kwin-effects force
+paru kwin x11
+cargo checkj
+paru egl-wayland
+git clone https://github.com/SlamZDank/Snake_game_sdl.git
+cargo run -- --width 40 --height 40 --border false --obstacles 5 --tickspeed 150
+cargo run -- --width 20 --height 20 --border false --obstacles 5 --tickspeed 150
+cargo run -- --width 22 --height 22 --border false --obstacles 5 --tickspeed 150
+cargo run -- --width 22 --height 22 --border true --obstacles 5 --tickspeed 150
+adb connect 192.168.1.74:37699
+adb connect 192.168.1.74:46203
+adb connect 192.168.1.74:40141
+diff gold_foil_android.fs gold_foil.fs
+adb connect 192.168.1.74:38977
+cd .. && java -jar apktool_2.12.0.jar b balatro_mobile_port -o unsigned_balatro.apk\
+zipalign -p -f -v 4 unsigned_balatro.apk aligned.apk\
+apksigner sign --ks balatro.keystore --ks-key-alias balatro-alias aligned.apk\
+adb install --user 0 ./aligned.apk
+nvim .zshrc
+nvim .zprofile
+diesel --help
+diesel migration --help
+fzf davinci
+sudo perl -pi -e 's/\x74\x11\xe8\x21\x23\x00\x00/\xeb\x11\xe8\x21\x23\x00\x00/g' ./resolve
+sudo perl -pi -e 's/\x03\x00\x89\x45\xFC\x83\x7D\xFC\x00\x74\x11\x48\x8B\x45\xC8\x8B/\x03\x00\x89\x45\xFC\x83\x7D\xFC\x00\xEB\x11\x48\x8B\x45\xC8\x8B/g' bin/resolve
+sudo perl -pi -e 's/\x74\x11\x48\x8B\x45\xC8\x8B\x55\xFC\x89\x50\x58\xB8\x00\x00\x00/\xEB\x11\x48\x8B\x45\xC8\x8B\x55\xFC\x89\x50\x58\xB8\x00\x00\x00/g' bin/resolve
+sudo echo -e "LICENSE blackmagic davinciresolvestudio 009599 permanent uncounted\nhostid=ANY issuer=AHH customer=AHH issued=03-Apr-2024\n akey=3148-9267-1853-4920-8173_ck=00 sig=\"00\"\n" > .license/blackmagic.lic
+cd .license
+regedit
+sudo pacman -Rs umu-launcher
+paru steam linux
+paru steam native
+paru steam stub
+paru steam native runtime
+paru steam runtime
+sudo pacman -Rs steam-native-runtime
+paru steam
+paru umu
+paru dxvk
+sudo perl -pi -e 's/\x74\x11\x48\x8B\x45\xC8\x8B\x55\xFC\x89\x50\x58\xB8\x00\x00\x00/\xEB\x11\x48\x8B\x45\xC8\x8B\x55\xFC\x89\x50\x58\xB8\x00\x00\x00/g' ./resolve
+./setup.sh DaVinci_Resolve_Studio_20.0.1_Linux.run
+sudo perl -pi -e 's/\x74\x11\xe8\x21\x23\x00\x00/\xeb\x11\xe8\x21\x23\x00\x00/g' /opt/resolve/bin/resolve
+/opt/resolve/bin/resolve
+sudo cp ../macOS-White /home/slamzdank
+sudo cp -r ../macOS-White /home/slamzdank/
+sudo cp -r /home/slamzdank/macOS-White /usr/share/icons
+vim index.theme
+nano index.theme
+cd Cryptid
+ls -l
+adb pair 192.168.1.74:42967
+adb connect 192.168.1.74:42335
+adb connect 192.168.1.74:33671
+paru protontricks
+protontricks
+winetricks
+paru kdialog
+paru faugus
+sudo pacman -Rs protontricks faugus-launcher
+paru proton auth
+adb connect 192.168.1.74:36573
+adb uninstall --user 0 com.github.catfriend1.syncthingandroid
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" -e "Theme" --force -i 192.168.1.74:36573
+adb connect 192.168.1.74:44747
+grep -rnw ./ -e 'LOADING'
+adb connect 192.168.1.74:42193
+grep -rnw ./ -e '1.0.1'
+grep -rnw ./ -e '1.0.1o'
+cat /proc/asound/modules
+cat /sys/module/snd_hda_intel/parameters/power_save
+adb connect 192.168.1.74:40883
+adb connect 192.168.1.74:42015
+adb connect 192.168.1.82:32775
+grep -rnw ./ -e 'Enhance'
+grep -rnw ./ -e 'Setting'
+grep -rnw ./ -e 'Setting En'
+grep -rnw ./ -e 'SettingEnhance'
+paru neovide
+mkdir js_test
+echo '{ "main": "hello.js", "output": "sea-prep.blob" }' > sea-config.json
+node --experimental-sea-config sea-config.json
+cp $(command -v node) index
+npx postject index NODE_SEA_BLOB sea-prep.blob --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2
+./index
+npm install -g @yao-pkg/pkg
+paru pkg
+npm install @yao-pkg/pkg
+npm pkg ./package.json
+npm pkg index.js
+sudo npm install -g @yao-pkg/pkg
+pkg
+paru node lts
+pkg ./package.json --targets node24-linux-x64
+pkg ./package.json --targets node22-linux-x64
+./js_test
+pkg .
+./dist/js_test
+pkg ./package.json
+pkg ./package.json --options experimental-require-module
+npm build
+npm install express
+node index.js
+npm run build
+./bin/js_test
+npm run run
+git commit -m "init"
+git add ./*
+git commit -m "delete unnecessary bin file"
+git push
+grep -rnw ./ -e 'Polostick'
+grep -rnw ./ -e '-- return skin'
+grep -rnw ./ -e '--return skin'
+grep -rnw ./ -e 'j_prism_prism'
+cd Balatro\ Mobile\ Factory
+adb connect 192.168.1.82:37351
+sudo pacman -S mangohud
+cargo checka
+diesel migration undo --database-url=postgres://test:test@localhost:5432/cash_register_app
+diesel migration revert --database-url=postgres://test:test@localhost:5432/cash_register_app
+file "/home/slamzdank/.local/share/Steam/steamapps/common/Lossless Scaling/Lossless.dll"
+cd .local/share/Steam/steamapps/common/Lossless Scaling
+cd ".local/share/Steam/steamapps/common/Lossless Scaling"
+cat ./.zprofile
+grep ./ -e 'killwine'
+sudo pacman -S steam
+sudo pacman -Rs sleepy-launcher-bin
+paru gamescope eac
+paru gamescope easy
+paru gamescope
+adb connect 192.168.1.82:40847
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" -e "Theme" --force -i 192.168.1.74:40847
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" -e "Theme" --force -i 192.168.1.82:40847
+paru chwd
+chwd
+chwd --help
+ghostty -c btop
+ghostty -e btop
+gamescope -f -- steam -tenfoot -applaunch 2073850
+zenity --info --no-wrap --timeout=40 --width=1920 --height=1080 --title="" --text="" --window-icon=none
+paru yad
+sudo pacman-key --lsign-key 3056513887B78AEB
+paru vesktop
+pacman -Qq | grep nvidia
+paru ffmpeg
+./setup.sh DaVinci_Resolve_Studio_20.1_Linux.run
+cd bin
+sudo /usr/bin/perl -pi -e 's/\x03\x00\x89\x45\xFC\x83\x7D\xFC\x00\x74\x11\x48\x8B\x45\xC8\x8B/\x03\x00\x89\x45\xFC\x83\x7D\xFC\x00\xEB\x11\x48\x8B\x45\xC8\x8B/g' /opt/resolve/bin/resolve\
+\
+sudo /usr/bin/perl -pi -e 's/\x74\x11\x48\x8B\x45\xC8\x8B\x55\xFC\x89\x50\x58\xB8\x00\x00\x00/\xEB\x11\x48\x8B\x45\xC8\x8B\x55\xFC\x89\x50\x58\xB8\x00\x00\x00/g' /opt/resolve/bin/resolve\
+\
+sudo /usr/bin/perl -pi -e 's/\x74\x11\xE8\x31\x25\x00\x00\x48\x89\xC7\xE8\x09\xBA\x02\x00\x84/\x75\x11\xE8\x31\x25\x00\x00\x48\x89\xC7\xE8\x09\xBA\x02\x00\x84/g' /opt/resolve/bin/resolve
+cd /run
+cd usr
+cd share
+cd icons
+sudo vi ./default/index.theme
+sudo vi ./index.theme
+paru cachy update
+
+paru cachy
+sudo pacman -Rs cachy-update
+killwine
+sudo pacman -SYu
+paru motorix
+paru motrix
+paru kget
+mkdir c_project
+clang
+./a.out
+clang main.c
+lua print(vim.inspect(require('dap').list_breakpoints())
+lua print(vim.inspect(require('dap').list_breakpoints()))
+cargo new test_debug_symbols
+lua print(vim.inspect(require('dap').defaults.fallback.switchbuf))
+clang -g main.c
+npm run package
+./bin/js_test-linux
+wine cmd.exe
+./js_test-linux
+ssh mic-server-prototype@192.168.122.219
+ssh mstl@192.168.122.219
+gamescope -f -- steam -applaunch 2073850
+cargo build
+podman-compose down
+./cash_register_app
+flatpak udpate
+cargo doc --open
+git ls-files | xargs wc -l
+adb connect 192.168.1.74:45901
+adb uninstall --user 0 com.android.vending
+adb uninstall --user 0 com.google.android.gms
+paru zen-browser
+cd Documents
+cd rev
+adb connect 192.168.1.74:35875
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" -e "Theme" --force -i 192.168.1.74:35875
+adb list
+adb devicers
+adb uninstall --user 0 com.facebook.orca
+distrobox-enter -n davincibox -- /usr/bin/run-davinci /opt/resolve/bin/resolve %u
+adb connect 192.168.1.74:40527
+paru linux cachyos
+sudo pacman -Rs linux-cachyos-lto-nvidia-open
+paru linux cachyos nvidia open
+sudo mkinitcpio -P
+cd config
+cd ghostty
+rm ]
+nvim config
+paru terminal lxde
+paru terminal lxqt
+sudo pacman -Rs ghostty
+cat /etc/environment
+cd ssh
+ls -al
+cat known_hosts
+ssh-keygen
+cd .ssh
+ssh mic-tl@192.168.122.66
+cat public_server.pub
+ssh mic-tl@192.168.122.66 -p 2222
+blkid
+cat /etc/fstab
+ssh mic-tl@192.168.122.66 -p 2222 -i /home/slamzdank/.ssh/public_server
+pkill plasmashell
+plasmashell
+java -jar rec.jar patch NewerYT.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/Revanced.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" -e "Theme" --force -i 192.168.1.74:36003
+adb connect 192.168.1.74:36003
+java -jar apktool_2.12.0.jar b balatro_mobile_port -o unsigned_balatro.apk\
+zipalign -p -f -v 4 unsigned_balatro.apk aligned.apk\
+apksigner sign --ks balatro.keystore --ks-key-alias balatro-alias aligned.apk\
+adb install --user 0 ./aligned.apk
+cargo install websocat
+adb connect 192.168.1.74:45153
+adb connect 192.168.1.74:38171
+adb connect 192.168.1.74:34179
+adb shell pm enable com.samsung.android.packageinstaller
+adb shell pm enable com.samsung.android.app.omcagent\
+adb shell pm enable com.samsung.android.securitylogagent\
+adb shell pm enable com.samsung.android.packageinstaller
+adb shell cmd package install-existing com.samsung.android.sm
+adb connect 192.168.1.74:34127
+adb connect 192.168.1.74:44439
+adb connect 192.168.1.82:44439
+adb logcat *:E | grep "com.samsung.android.packageinstaller"
+adb shell pm list packages -da
+adb shell pm list packages -d
+adb logcat *:E | grep "com.google.android.packageinstaller"
+adb logcat | findstr "SecurityException\|blocked\|mode"
+adb logcat | grep -E "SecurityException|blocked|mode"
+adb shell pm enable com.samsung.android.app.omcagent
+adb settings
+adb shell pm list permissions | grep -E "packageinstaller"
+adb shell su
+adb connect 192.168.1.82:41971
+adb connect 192.168.1.74:41971
+update
+paru kinit
+sudo pacman -Rs kinit
+distrobox store davincibox
+nvim
+adb connect 192.168.1.82:40197
+adb uninstall --user 0 com.google.android.apps.carrier.carrierwifi
+adb uninstall --user 0 com.google.android.apps.turbo
+adb 192.18.1.74:37565
+adb connect 192.18.1.74:37565
+podman-compose up
+diesel migration run --database-url=postgres://test:test@localhost:5432/cash_register_app
+cargo list
+cargo --list
+websocat ws://localhost:8080/api/v1/notify
+diesel migration redo --database-url=postgres://test:test@localhost:5432/cash_register_app
+cargo check
+cargo run --release
+npx prisma
+npx prisma migrate dev
+sudo npm install -g ts-node
+grep -rnw ./ -e 'killwine'
+grep -rnw ./ -e 'besiness'
+fzf
+grep -ri "besiness" ./
+npx prisma migrate dev --name new_starty
+cargo build --release
+npx prisma migrate dev --name new_start
+ping db.prisma.io:5432
+ping db.prisma.io
+ping google.com
+npx prisma migrate dev --name update
+git checkout -b recruitment
+git branch
+npx prisma migrate dev --name UpdateRoles
+npm run seed
+sudo chmod +x ./hollow_knight_1_5_78_11833_51218.sh
+./hollow_knight_1_5_78_11833_51218.sh
+sudo chmod +x ./Hollow\ Knight\ Silksong.sh
+paru xorg-xwininfo
+sudo pacman -Rs xorg-xwininfo
+the-honkers-railway-launcher
+ping keyserver.ubuntu.com
+paru -Sy
+vkcube
+paru lsfg
+adb connect 192.18.1.74:45911
+java -jar apktool_2.12.0.jar b balatro_mobile_port -o unsigned_balatro.apk\
+zipalign -p -f -v 4 unsigned_balatro.apk aligned.apk\
+apksigner sign --ks balatro.keystore --ks-key-alias balatro-alias aligned.apk
+adb shell dumpsys battery
+fastfetch
+paru portswigger
+paru burpsuite
+sudo pacman -Rs burpsuite
+cd /usr/share/applications
+ls | grep virtual
+virt-manager
+cat /etc/os-release
+paru kwin effects force
+paru gdm
+paru xfce polkit
+pkexec btop
+paru adw gtk
+paru icon theme
+paru papirus
+shutdown -P +15
+cd run
+cd host
+cd ./usr/share/icons
+sudo cp -r ./macOS-White /usr/share/icons
+cat index.theme
+cd /usr/share/icons
+cd default
+nano
+vim
+vi index.thee
+vi index.theme
+sudo vi index.theme
+distrobox stop davincibox
+cd reva
+npm start
+npm run
+paru flutter
+paru andorid toolchain
+paru andorid sdk
+sudo pacman -Rs android-sdk
+paru android sdk
+flutter doctor
+flutter doctor --android-licenses
+npm run dev
+npx prismma migrate dev --name "Checkin Nvidia"
+sudo pacman -S sdd
+sudo pacman -S sddm
+sudo systemctl disable plasmalogin.service
+sudo systemctl enable sdd.service
+archlinux-java
+archlinux-java status
+archlinux-java set java-25-openjdk
+sudo archlinux-java set java-25-openjdk
+java
+npm i --save @nestjs/platform-fastify
+paru open code
+paru opencode-bin
+opencode --help
+opencode github
+opencode login github
+opencode auth github
+opencode auth login github
+opencode auth login
+opencode
+more /usr/share/doc/systemd/NEWS
+cargo new mic-newsletter
+diesel migration generate
+diesel migration generate init
+rustup update
+paru zaku
+sudo pacman -Rs zaku
+sudo pacman -Rs zaku-bin
+flatpak update
+npx prisma migrate reset
+npx prisma generate dev
+paru equibop
+flatpak install equibop
+flatpak remove io.github.equicord.equibop
+flatpak remove *
+flatpak remove org.freedesktop.Platform
+flatpak remove org.freedesktop.Platform.GL.nvidia-580-82-09
+flatpak remove org.freedesktop.Platform.VAAPI.Intel
+flatpak remove org.freedesktop.Platform.GL.default
+sudo pacman -S xwininfo
+sudo pacman -S xorg-xwininfo
+xwininfo
+paru printer kcm
+paru printer
+btop
+npx prisma migrate dev --name "Checkin Nvidia"
+npx prisma generate
+npx prisma migrate deploy
+cd ..
+rm package.json
+mkdir mail_accepted_people_from_xlsx
+npm init
+npm install nodemailer
+npm install xlsx
+npm install path
+npx tsc --showConfig
+npm install dotenv
+npm install --save-dev @types/node
+npm install fs
+node index.ts
+npm install tsc
+npm install typescript
+npm i --save-dev @types/nodemailer
+npm i
+npx tsc
+git branch -M main\
+git push -u origin main
+sudo pacman -Rs flutter-bin android-platform
+sudo chmod +x patch.sh
+sudo chmod +x patch-fbc.sh
+./patch.sh
+sudo ./patch.sh
+sudo ./patch-fbc.sh
+paru vscode
+sudo pacman -Rs vscodium
+sudo paccache -r
+cargo new presence_marker_backend
+cargo fmt
+cargo run]
+cargo run
+git init
+cargo update
+cargo binstall
+cargo binstall update
+java -jar rec.jar patch ./YTMusic.apk --keystore=Revanced.keystore -p rep.rvp -o Patched/RevancedMusic.apk -e "MaterialYou" -e "Hide shortcuts" -e "Custom branding icon for YouTube" -e "Custom branding name for YouTube" -e "Change version code" -e "Theme" --force
+npm run start
+sudo pacman -S gdm gdm-settings
+sudo systemctl disable sddm.service
+sudo systemctl enable gdm.service
+sudo pacman -Rs gdm gdm-settings
+sudo systemctl disable gdm.service
+sudo systemctl enable sddm.service
+distrobox enter davincibox
+AyuGram
+sudo pacman -Rs nautilus
+sudo pacman -Rs nautilus xdg-desktop-portal-gnome
+adb pair 192.168.1.74:42101
+adb pair 192.168.1.82:44605
+adb pair 192.168.1.82:39645
+adb connect 192.18.1.82:33265
+adb uninstall --user 0 com.sec.android.app.samsungapps
+java -jar rec.jar patch Messenger.apk --keystore=Revanced.keystore -p repM.rvp -o PatchedMessenger/RevancedMessenger.apk -d "Disable typing indicator"
+adb uninstall --user 10 com.android.vending
+adb connect 192.18.1.82:34235
+adb pair 192.168.1.82:38211
+adb connect 192.18.1.82:36121
+adb shell
+adb logcat | grep -E "(My Ooredoo|tn.com.tunisiana.android.maTunisiana)"
+adb devices
+adb uninstall --user 10 com.google.android.googlequicksearchbox
+adb uninstall --user 10 com.google.android.projection.gearhead
+groups
+poweroff
+reboot
+paru -Syu
+sudo nvidia-ctk cdi generate --output="/etc/cdi/nvidia.yaml"
+mkdir tp_dev_web
+sudo pacman -Syu
+cd dev
+cd Developer
+clear
+ls
+exit
+: 1759477130:0;binwalk string.jpg
+: 1759477181:0;cp string.jpg string_bak.jpg
+: 1759477216:0;hexdump -C string.jpg | tail -5
+: 1759477367:0;clear
+: 1759477369:0;hexdump -C string.jpg | tail -5
+: 1759477437:0;binwalk string.jpg
+: 1759477475:0;dd if=string.zip of=string.jpg bs=1 seek=125611 conv=notrunc
+: 1759477478:0;binwalk string.jpg
+: 1759477648:0;cd dev
+: 1759477650:0;cd simpledecryptor
+: 1759477661:0;exiftool string.jpg
+: 1759477670:0;binwalk string.jpg
+: 1759477813:0;binwalk -e string.jpg
+: 1759477874:0;ls
+: 1759477884:0;python soemthing.py
+: 1759477907:0;exiftool string.jpg
+: 1759503870:0;sudo pacman -Syu
+: 1759522594:0;poweroff
+: 1759559514:0;sudo pacman -Syu
+: 1759560493:0;paru -Syu
+: 1759562224:0;shutdown -P +69
+: 1759602912:0;sudo pacman -Syu
+: 1759603371:0;reboot
