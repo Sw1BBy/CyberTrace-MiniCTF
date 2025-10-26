@@ -3,7 +3,7 @@
 
 ---
 
-## 🏆 Table of Contents
+## 𝄜 Table of Contents
 1. [Challenges Writers](#-challenges-writers)
 2. [Challenges](#-challenges)
 3. [Popular Tools for Solving Challenges](#-popular-tools-for-solving-challenges)
